@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMHotel | About</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <h1><a href="index.html">AMHotel</a></h1>
+            <div class="nav-links" id="nav_link">
+                <i class="fas fa-window-close" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="openMenu()"></i>
+        </nav>
+    </section>
+
+
+    <section class="feature">
+
+        <h1>About Our Hotel</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="feature-item">
+                <img class="feature-img" src="img/room.jpg" alt="">
+                <div class="feature-details">
+                    <h2>Awesome Rooms</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio nemo dolorem non ullam aperiam et rerum quam
+                        mollitia soluta saepe vel sit molestiae nesciunt nam, possimus expedita minima magnam voluptatum!</p>
+                    <div class="book-btn"><a href="contact.html">Book Now</a></div>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <img class="feature-img" src="img/bar.jpg" alt="">
+                <div class="feature-details">
+                    <h2>Cool Bar</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio nemo dolorem non ullam aperiam et rerum quam
+                        mollitia soluta saepe vel sit molestiae nesciunt nam, possimus expedita minima magnam voluptatum!</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <img class="feature-img" src="img/pool.jpg" alt="">
+                <div class="feature-details">
+                    <h2>Largest Swimming Pool</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio nemo dolorem non ullam aperiam et rerum quam
+                        mollitia soluta saepe vel sit molestiae nesciunt nam, possimus expedita minima magnam voluptatum!</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <img class="feature-img" src="img/dinning.jpg" alt="">
+                <div class="feature-details">
+                    <h2>Healthy Foods</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio nemo dolorem non ullam aperiam et rerum quam
+                        mollitia soluta saepe vel sit molestiae nesciunt nam, possimus expedita minima magnam voluptatum!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer">
+
+        <h1>Our Customers</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="customer-item">
+                <img src="https://www.filmibeat.com/img/2021/02/xvijay-1612258117.jpg.pagespeed.ic.dVHxMRznZ4.jpg" alt="">
+                <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi velit maiores voluptate, 
+                    aspernatur alias fugit possimus facilis quibusdam eveniet omnis aliquid rerum? Voluptatem, ipsum.</p>
+                <h3>Thalapathi VIJAY</h3>
+                <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="customer-item">
+                <img src="https://www.businessupturn.com/wp-content/uploads/2020/09/ajithK-450x300.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi velit maiores voluptate, 
+                    aspernatur alias fugit possimus facilis quibusdam eveniet omnis aliquid rerum? Voluptatem, ipsum.</p>
+                <h3>Thala AJITH</h3>
+                <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi!</p>
+        
+            <div class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        <p><i class="far fa-copyright"></i> Copyrights AMHotel</p>    
+
+    </section>
+
+<script>
+        let menu = document.getElementById('nav_link');
+
+        function openMenu() {
+            menu.style.right = "0";
+        }
+
+        function closeMenu() {
+            menu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
